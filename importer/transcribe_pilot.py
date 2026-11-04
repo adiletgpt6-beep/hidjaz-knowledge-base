@@ -1,7 +1,10 @@
 """Pilot Kyrgyz transcription using local faster-whisper. No external paid API."""
 import argparse
 import json
+import wave
 from pathlib import Path
+
+import numpy as np
 
 from faster_whisper import WhisperModel
 
@@ -19,9 +22,17 @@ def main():
     manifest = json.loads(manifest_file.read_text(encoding="utf-8"))
     if manifest.get("code") != args.code:
         raise RuntimeError("Audio manifest shortcode mismatch")
+    # The WAV is already 16 kHz mono PCM16 from FFmpeg. Decode with stdlib
+    # to avoid PyAV's incompatible metadata_errors keyword on some runners.
+    with wave.open(str(audio), "rb") as wav:
+        if wav.getnchannels() != 1 or wav.getframerate() != 16000 or wav.getsampwidth() != 2:
+            raise RuntimeError("Expected mono 16 kHz PCM16 WAV")
+        samples = np.frombuffer(wav.readframes(wav.getnframes()), dtype="<i2").astype(np.float32) / 32768.0
+    if samples.size == 0:
+        raise RuntimeError("Audio is empty")
     model = WhisperModel(args.model, device="cpu", compute_type="int8", cpu_threads=4)
     segments, info = model.transcribe(
-        str(audio),
+        samples,
         language="ky",
         task="transcribe",
         beam_size=5,
