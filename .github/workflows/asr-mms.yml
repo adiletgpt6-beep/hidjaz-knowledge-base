@@ -1,0 +1,53 @@
+name: Hidjaz Meta MMS Kyrgyz pilot
+on:
+  workflow_dispatch:
+    inputs:
+      shortcode:
+        description: "Instagram video shortcode"
+        required: true
+        default: "Deb9iRjtemv"
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: hidjaz-mms-pilot
+  cancel-in-progress: false
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      TOKENIZERS_PARALLELISM: 'false'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audio tools and model libraries
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install boto3 numpy soundfile "transformers==4.44.2" "torch>=2.2,<2.6" sentencepiece
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Prepare audio from archived R2 video
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          SHORTCODE: ${{ inputs.shortcode }}
+        run: python importer/prepare_asr.py --code "$SHORTCODE"
+      - name: Transcribe with Meta MMS Kyrgyz adapter
+        env:
+          SHORTCODE: ${{ inputs.shortcode }}
+        run: python importer/transcribe_mms.py --code "$SHORTCODE"
+      - name: Save MMS draft and audio manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hidjaz-mms-kyrgyz-pilot
+          path: asr-pilot/
+          if-no-files-found: warn
+          retention-days: 7
