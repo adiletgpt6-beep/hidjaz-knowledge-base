@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source": "GitHub Actions log supplied 2026-11-04",
+  "verified": [
+    {
+      "post_code": "Deb9iRjtemv",
+      "key": "hidjaz/instagram/videos/Deb9iRjtemv.mp4",
+      "bytes": 4440686,
+      "sha256": "11f61302e49dea408eb7c704f3d1b87af829bb136371bd451ce132b0debb1699",
+      "verification": "uploaded, downloaded and SHA256 matched",
+      "verified_at": "2026-11-04T08:02:21Z"
+    }
+  ],
+  "remaining_status": "not_verified"
+}
