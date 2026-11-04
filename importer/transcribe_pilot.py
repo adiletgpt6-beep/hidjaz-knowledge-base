@@ -33,7 +33,7 @@ def main():
     model = WhisperModel(args.model, device="cpu", compute_type="int8", cpu_threads=4)
     segments, info = model.transcribe(
         samples,
-        language="ky",
+        language=None,  # Whisper does not support Kyrgyz; diagnostic auto-detection only
         task="transcribe",
         beam_size=5,
         vad_filter=True,
@@ -52,8 +52,8 @@ def main():
         "requested_language": "ky",
         "reported_language": info.language,
         "segments": rows,
-        "status": "draft_requires_human_review",
-        "notice": "Automatic Kyrgyz ASR may be inaccurate. Do not use as verified product claims.",
+        "status": "diagnostic_unsupported_kyrgyz_not_verified",
+        "notice": "Whisper does NOT support Kyrgyz (ky). This auto-detected transcript is diagnostic only; do not use it as verified Kyrgyz or product facts.",
     }
     (folder / f"{args.code}.transcript.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
