@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source": "User-provided GitHub Actions output",
+  "run_timestamp": "2026-11-04T08:13:46Z",
+  "limit": 100,
+  "newly_uploaded_and_verified": 90,
+  "previously_present_and_verified": 5,
+  "failed": 0,
+  "skipped": 0,
+  "total_verified_objects": 95,
+  "scope": "Objects enumerated by importer/bulk.py from current posts.json",
+  "limitations": [
+    "Not proof of all Instagram account content, stories, highlights, or comments",
+    "Individual 95 hashes are in workflow report artifact, not in this checkpoint"
+  ]
+}
