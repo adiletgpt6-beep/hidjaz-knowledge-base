@@ -1,0 +1,41 @@
+name: Hidjaz Kyrgyz ASR pilot preparation
+on:
+  workflow_dispatch:
+    inputs:
+      shortcode:
+        description: "Instagram video shortcode from posts.json"
+        required: true
+        default: "Deb9iRjtemv"
+        type: string
+permissions:
+  contents: read
+jobs:
+  prepare-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install boto3
+      - name: Extract and verify pilot audio from R2
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          SHORTCODE: ${{ inputs.shortcode }}
+        run: |
+          test -n "$R2_ACCOUNT_ID"
+          test -n "$R2_BUCKET_NAME"
+          test -n "$AWS_ACCESS_KEY_ID"
+          test -n "$AWS_SECRET_ACCESS_KEY"
+          python importer/prepare_asr.py --code "$SHORTCODE"
+      - name: Save pilot audio and source manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: hidjaz-asr-pilot
+          path: asr-pilot/
+          if-no-files-found: error
+          retention-days: 7
