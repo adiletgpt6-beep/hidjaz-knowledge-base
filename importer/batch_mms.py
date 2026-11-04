@@ -18,8 +18,8 @@ def main():
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--limit", type=int, default=3)
     args = p.parse_args()
-    if args.offset < 0 or not 1 <= args.limit <= 5:
-        p.error("offset >= 0 and limit 1..5 required")
+    if args.offset < 0 or not 1 <= args.limit <= 44:
+        p.error("offset >= 0 and limit 1..44 required")
     posts = json.loads(Path("data/instagram/posts.json").read_text(encoding="utf-8"))
     codes = list(dict.fromkeys(
         x["code"] for x in posts if x.get("code") and (x.get("video") or {}).get("url")
