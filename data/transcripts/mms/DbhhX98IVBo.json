@@ -1,0 +1,32 @@
+{
+  "code": "DbhhX98IVBo",
+  "source_r2_key": "hidjaz/instagram/videos/DbhhX98IVBo.mp4",
+  "source_sha256": "91d7778a19aea48bdbdf7cd82aea84a1578da374a2bb28f2abf71b8a6d5c125d",
+  "audio_sha256": "f2d2af135860e023461a497062e75ee035d0a2216784a1f912e074b6725eba11",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "айвектур бул имелеген козуу каразыңызкаанала ууапсыртаблышкыыжаы"
+    },
+    {
+      "start": 20.0,
+      "end": 40.0,
+      "text": "баракы эмнеденатаыжиректен жасалганда атасы исмелалахнайрахиаалауактара аралаштырук үскөра руаза биринжеа"
+    },
+    {
+      "start": 40.0,
+      "end": 60.0,
+      "text": "иайарйсен жеттап керсөң адыл айтасын каразагүл үшө бир нерсе алымашкан музкусту атасын ба устаз кама куна"
+    },
+    {
+      "start": 60.0,
+      "end": 64.39,
+      "text": "мисиздерди алдайн айталат жана шолкуруутундайбр өзгөчө бэрмектерке декирсүн тактарбойт"
+    }
+  ]
+}

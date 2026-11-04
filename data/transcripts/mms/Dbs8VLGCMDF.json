@@ -1,0 +1,27 @@
+{
+  "code": "Dbs8VLGCMDF",
+  "source_r2_key": "hidjaz/instagram/videos/Dbs8VLGCMDF.mp4",
+  "source_sha256": "b20746f59016f7d110351f2bd655c68c81d4c20a324639edb45ba56d62e65911",
+  "audio_sha256": "37774712cf824989839a7e3d3ac6456f6cdaa3d9e13facc9e3e0a292782bdf0b",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "кимде ким өзүнө көз тийип калуудан назар тийип калуудан күмөн санабаткан болсо ушул эки аятты окусун. бул кайсы аят караңыздар колям сүрөсүнүн акыркы эки аяты кыска жатта алганардагы ыңгайлуу азыр мене оку бурен ауду билде охимнде шейтлани родим исимиле рухман рохим"
+    },
+    {
+      "start": 20.0,
+      "end": 40.0,
+      "text": "ttрt"
+    },
+    {
+      "start": 40.0,
+      "end": 51.76,
+      "text": "етеп улуу таасир алымдары айтып кеткенген"
+    }
+  ]
+}

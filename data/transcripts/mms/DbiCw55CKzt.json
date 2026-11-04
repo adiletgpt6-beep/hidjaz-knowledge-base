@@ -1,0 +1,22 @@
+{
+  "code": "DbiCw55CKzt",
+  "source_r2_key": "hidjaz/instagram/videos/DbiCw55CKzt.mp4",
+  "source_sha256": "4cc0ad5494bfe7e547112190fbdbc9decb52ec5b93b330f7b20fea37c6b3c143",
+  "audio_sha256": "d5385e960950db64f433d4ec4abf77368bbc84234f70cffa836b80c2de0cb7bb",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "куранда алахталанын ысымы эң көп жазылган бет ушул бет эми караңыздар. эң арттан үчүнчү катарды карай турган болсок бул катардакаят я аюхаллавина амануу узукур уллаы вик ронгесиро маниси оо иман келтиргендера"
+    },
+    {
+      "start": 20.0,
+      "end": 33.93,
+      "text": "алахталаны көп эстегиле зикир кылгыла кимдий аллахталаны эми ушул аят келген бетте аллах таланын ысымы эң көп зикир кылыныптур ашабылаы"
+    }
+  ]
+}

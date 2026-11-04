@@ -1,0 +1,17 @@
+{
+  "code": "DbV0dQYt_MO",
+  "source_r2_key": "hidjaz/instagram/videos/DbV0dQYt_MO.mp4",
+  "source_sha256": "d1abf7f6ee89f4970ad8e7c7e46353cafe2eaee51a6629540fed8d9bc5261dd3",
+  "audio_sha256": "8e3a0bfc894f60e0ede64e60cd1fc3fb22835ff6016646da08bf8a2bf6178a7f",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 18.65,
+      "text": "аабарганда куран оку дейт оку анын сайын жогоржака лиф менен чыгып кете берет да бийик даражагачы токтогон жерде токтойт демек канча көөкан ошончолук бийик даражада болот деген сөз куран окуган карлар ната-энесине алтындан болгон күндөн болгон нурдан болгон тажы кийгиз элет сен балаң ушууга бердиң кураны окуп не болот кантыт"
+    }
+  ]
+}

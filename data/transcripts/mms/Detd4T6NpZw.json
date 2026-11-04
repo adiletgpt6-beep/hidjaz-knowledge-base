@@ -1,0 +1,32 @@
+{
+  "code": "Detd4T6NpZw",
+  "source_r2_key": "hidjaz/instagram/videos/Detd4T6NpZw.mp4",
+  "source_sha256": "f969379c196509a1f61f6228c1e17db23f250b6d985658c56333737bdc5b00f9",
+  "audio_sha256": "59e1fd26deaf5b41e3f552ccc368d1929a4fe0ff0718e95063d9c7347c42105d",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "бул эмелеген коозу каразыңкысканала уууасырт абылышкдеаыыжасыбаракы эмнеден жасалгандап атасын жи"
+    },
+    {
+      "start": 20.0,
+      "end": 40.0,
+      "text": "жибектен жасалганы алдарсы висмелаилахмани рахиимашалаухкрактарааралаштырук мүскурсдан роза бирдинчитарда коят камирлершол кетбей турат"
+    },
+    {
+      "start": 40.0,
+      "end": 60.0,
+      "text": "уаил аймарйорсен жыттап көрсөм павел айтасын карароаагүлишо бир нерсе алырашка мускусту атасынар устаз кабакунахуну емесилерди алыл айтат жанаы шо ура уундай быраа"
+    },
+    {
+      "start": 60.0,
+      "end": 61.46,
+      "text": "ишин далдабой"
+    }
+  ]
+}

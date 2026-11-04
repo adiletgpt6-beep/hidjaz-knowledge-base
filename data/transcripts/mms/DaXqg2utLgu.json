@@ -1,0 +1,17 @@
+{
+  "code": "DaXqg2utLgu",
+  "source_r2_key": "hidjaz/instagram/videos/DaXqg2utLgu.mp4",
+  "source_sha256": "ebc4e7eaccf1f3e9f390bfe0bede8325d9de81338edf2ef28d47f78ecf6d72e0",
+  "audio_sha256": "1c85d418a20c644bcb721f2f13650e6f45f57d88aa050fbebb445c25f64de80a",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.06,
+      "text": ""
+    }
+  ]
+}

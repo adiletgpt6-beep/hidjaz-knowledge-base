@@ -1,0 +1,17 @@
+{
+  "code": "DaXpR4Dt-jl",
+  "source_r2_key": "hidjaz/instagram/videos/DaXpR4Dt-jl.mp4",
+  "source_sha256": "9709b62a5c808d97e0bc54529a3ad05e5dced075a59b458015eedb33357cd2d3",
+  "audio_sha256": "9adeac4caa7ae6753467da80d70241091810f3e078b5274b5c5e888592c32942",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.06,
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "code": "DbdlSkKicTD",
+  "source_r2_key": "hidjaz/instagram/videos/DbdlSkKicTD.mp4",
+  "source_sha256": "3ef618be3096d14bf62cfc10e2f91f80a2e4a773d9487b42087930477b2f9231",
+  "audio_sha256": "ac314bd70b51ca930c8e1ef057b0b300cb149e6029881fac711af40e561f8288",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "баранды эмнедеагд таыжибкжибктежаагадатымускусан раза күлүнн жада да коят кебирлер ошол кетпей турат да сакталыт"
+    },
+    {
+      "start": 20.0,
+      "end": 40.0,
+      "text": "ыаймаси таркысөн адын айтасызбир нерсе аларашка бузкусту атасыз устаз кабат улактын эмесиледи алып айтат жана оуну кундайдыр өзгөчө бикедизбуу талабытр"
+    },
+    {
+      "start": 40.0,
+      "end": 52.59,
+      "text": "ыдепжетерге ушалдынытамобул албырдебес"
+    }
+  ]
+}

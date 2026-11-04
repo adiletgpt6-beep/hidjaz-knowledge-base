@@ -1,0 +1,22 @@
+{
+  "code": "DbpgiE9CPCV",
+  "source_r2_key": "hidjaz/instagram/videos/DbpgiE9CPCV.mp4",
+  "source_sha256": "8145df3f6b7e36bbca71141455ac1bbbe24b8f1d525d7bbfd12589ece35fcaf8",
+  "audio_sha256": "66358ca56dfaa185185e44882c1b1a4c77b15ed0e64936132cb9d12b43ddbe6e",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "курандагы ушул аят түшкөндө алира делаухана айтатда ушул аят түшкөндө шайтандагы үмүттөн баштаганын ибилис дагы балкималлахтала мени дагы кечиретпекендиги үмүтмнен үмүттөнгөн кайсы аят караңыздар ла такнетумир рохматил инналла"
+    },
+    {
+      "start": 20.0,
+      "end": 36.43,
+      "text": "врну жамийа аллахтын рахматынан үмүтүзбөгүлө чындыгында аллах бардык күнөлөрдү кечирет дейт жамиа бардык күнөлөрдү ошунчалык аллахтан келген күчтүү кабар ибилисти дагы үмүттөндирип жиберген айттен машал"
+    }
+  ]
+}

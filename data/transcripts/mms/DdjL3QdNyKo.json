@@ -1,0 +1,22 @@
+{
+  "code": "DdjL3QdNyKo",
+  "source_r2_key": "hidjaz/instagram/videos/DdjL3QdNyKo.mp4",
+  "source_sha256": "c0d3ac9bc6ac203988d7e08a9bdfbee9fc89fab6fc5b350f8919eb0e6796824b",
+  "audio_sha256": "086213cb0d5d54ccb0529855a7c2c0d5a8bd7b2d3e9e3fa61143f7762fd45a09",
+  "model": "facebook/mms-1b-all",
+  "language_adapter": "kir",
+  "status": "draft_requires_human_review",
+  "timing_note": "20-second processing windows, not word-level timestamps",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "бул китептиң ар бир баракчасы жибектен жасалган жана ар бир барагы мускус менен роза күндүн курамасы менен жасалган атыр жыттанып турат канча көп окууса ошончолуук бүүү"
+    },
+    {
+      "start": 20.0,
+      "end": 39.22,
+      "text": "үүмөгө бул жит жайылаа ал эми сырткы көрүнүшүндө билестер алтын суу менен энегылган мооной капкалган бир китеп болуп эсептелет өтө баалуу бирбелек бул китеп болсо жакшы бир иретте сакталсын үчөн моной бир кутучадагын караалган"
+    }
+  ]
+}

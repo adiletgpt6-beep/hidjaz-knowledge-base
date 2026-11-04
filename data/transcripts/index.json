@@ -1,0 +1,359 @@
+{
+  "total_video_posts": 44,
+  "synced": 44,
+  "missing": [],
+  "transcripts": [
+    {
+      "code": "Deb9iRjtemv",
+      "instagram_url": "https://www.instagram.com/reel/Deb9iRjtemv/",
+      "json": "data/transcripts/mms/Deb9iRjtemv.json",
+      "text": "data/transcripts/mms/Deb9iRjtemv.txt",
+      "status": "draft_requires_human_review",
+      "segments": 5
+    },
+    {
+      "code": "DbhhX98IVBo",
+      "instagram_url": "https://www.instagram.com/reel/DbhhX98IVBo/",
+      "json": "data/transcripts/mms/DbhhX98IVBo.json",
+      "text": "data/transcripts/mms/DbhhX98IVBo.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DbdPsxqtrzx",
+      "instagram_url": "https://www.instagram.com/reel/DbdPsxqtrzx/",
+      "json": "data/transcripts/mms/DbdPsxqtrzx.json",
+      "text": "data/transcripts/mms/DbdPsxqtrzx.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DfOolr5t-JL",
+      "instagram_url": "https://www.instagram.com/reel/DfOolr5t-JL/",
+      "json": "data/transcripts/mms/DfOolr5t-JL.json",
+      "text": "data/transcripts/mms/DfOolr5t-JL.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DfH2GksN9_F",
+      "instagram_url": "https://www.instagram.com/reel/DfH2GksN9_F/",
+      "json": "data/transcripts/mms/DfH2GksN9_F.json",
+      "text": "data/transcripts/mms/DfH2GksN9_F.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DfFDy1ZNmDY",
+      "instagram_url": "https://www.instagram.com/reel/DfFDy1ZNmDY/",
+      "json": "data/transcripts/mms/DfFDy1ZNmDY.json",
+      "text": "data/transcripts/mms/DfFDy1ZNmDY.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DewU675Nuoy",
+      "instagram_url": "https://www.instagram.com/reel/DewU675Nuoy/",
+      "json": "data/transcripts/mms/DewU675Nuoy.json",
+      "text": "data/transcripts/mms/DewU675Nuoy.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DdBpv7mNV9J",
+      "instagram_url": "https://www.instagram.com/reel/DdBpv7mNV9J/",
+      "json": "data/transcripts/mms/DdBpv7mNV9J.json",
+      "text": "data/transcripts/mms/DdBpv7mNV9J.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "Detd4T6NpZw",
+      "instagram_url": "https://www.instagram.com/reel/Detd4T6NpZw/",
+      "json": "data/transcripts/mms/Detd4T6NpZw.json",
+      "text": "data/transcripts/mms/Detd4T6NpZw.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "Dcd58rhNb4A",
+      "instagram_url": "https://www.instagram.com/reel/Dcd58rhNb4A/",
+      "json": "data/transcripts/mms/Dcd58rhNb4A.json",
+      "text": "data/transcripts/mms/Dcd58rhNb4A.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DbbHFGhN7TZ",
+      "instagram_url": "https://www.instagram.com/reel/DbbHFGhN7TZ/",
+      "json": "data/transcripts/mms/DbbHFGhN7TZ.json",
+      "text": "data/transcripts/mms/DbbHFGhN7TZ.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "DerAkUYtH3V",
+      "instagram_url": "https://www.instagram.com/reel/DerAkUYtH3V/",
+      "json": "data/transcripts/mms/DerAkUYtH3V.json",
+      "text": "data/transcripts/mms/DerAkUYtH3V.txt",
+      "status": "draft_requires_human_review",
+      "segments": 5
+    },
+    {
+      "code": "DeMIj4xNB-a",
+      "instagram_url": "https://www.instagram.com/reel/DeMIj4xNB-a/",
+      "json": "data/transcripts/mms/DeMIj4xNB-a.json",
+      "text": "data/transcripts/mms/DeMIj4xNB-a.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DeGh8e1N4Ju",
+      "instagram_url": "https://www.instagram.com/reel/DeGh8e1N4Ju/",
+      "json": "data/transcripts/mms/DeGh8e1N4Ju.json",
+      "text": "data/transcripts/mms/DeGh8e1N4Ju.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DeBd4B7CqV8",
+      "instagram_url": "https://www.instagram.com/reel/DeBd4B7CqV8/",
+      "json": "data/transcripts/mms/DeBd4B7CqV8.json",
+      "text": "data/transcripts/mms/DeBd4B7CqV8.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "Dbpss6JNkM1",
+      "instagram_url": "https://www.instagram.com/reel/Dbpss6JNkM1/",
+      "json": "data/transcripts/mms/Dbpss6JNkM1.json",
+      "text": "data/transcripts/mms/Dbpss6JNkM1.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "Dd3-oGjNoKm",
+      "instagram_url": "https://www.instagram.com/reel/Dd3-oGjNoKm/",
+      "json": "data/transcripts/mms/Dd3-oGjNoKm.json",
+      "text": "data/transcripts/mms/Dd3-oGjNoKm.txt",
+      "status": "draft_requires_human_review",
+      "segments": 5
+    },
+    {
+      "code": "DdtK_AWN3j0",
+      "instagram_url": "https://www.instagram.com/reel/DdtK_AWN3j0/",
+      "json": "data/transcripts/mms/DdtK_AWN3j0.json",
+      "text": "data/transcripts/mms/DdtK_AWN3j0.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DbnvZYWNU2F",
+      "instagram_url": "https://www.instagram.com/reel/DbnvZYWNU2F/",
+      "json": "data/transcripts/mms/DbnvZYWNU2F.json",
+      "text": "data/transcripts/mms/DbnvZYWNU2F.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DdqIvYdtgNk",
+      "instagram_url": "https://www.instagram.com/reel/DdqIvYdtgNk/",
+      "json": "data/transcripts/mms/DdqIvYdtgNk.json",
+      "text": "data/transcripts/mms/DdqIvYdtgNk.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "DdjfNc7qt3y",
+      "instagram_url": "https://www.instagram.com/reel/DdjfNc7qt3y/",
+      "json": "data/transcripts/mms/DdjfNc7qt3y.json",
+      "text": "data/transcripts/mms/DdjfNc7qt3y.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DdjL3QdNyKo",
+      "instagram_url": "https://www.instagram.com/reel/DdjL3QdNyKo/",
+      "json": "data/transcripts/mms/DdjL3QdNyKo.json",
+      "text": "data/transcripts/mms/DdjL3QdNyKo.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "DdOcCHPCx4F",
+      "instagram_url": "https://www.instagram.com/reel/DdOcCHPCx4F/",
+      "json": "data/transcripts/mms/DdOcCHPCx4F.json",
+      "text": "data/transcripts/mms/DdOcCHPCx4F.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DdG9nGNC9Fu",
+      "instagram_url": "https://www.instagram.com/reel/DdG9nGNC9Fu/",
+      "json": "data/transcripts/mms/DdG9nGNC9Fu.json",
+      "text": "data/transcripts/mms/DdG9nGNC9Fu.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DcfrKWAi5AC",
+      "instagram_url": "https://www.instagram.com/reel/DcfrKWAi5AC/",
+      "json": "data/transcripts/mms/DcfrKWAi5AC.json",
+      "text": "data/transcripts/mms/DcfrKWAi5AC.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "Dc0UGFcCyOH",
+      "instagram_url": "https://www.instagram.com/reel/Dc0UGFcCyOH/",
+      "json": "data/transcripts/mms/Dc0UGFcCyOH.json",
+      "text": "data/transcripts/mms/Dc0UGFcCyOH.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DcVTLfginTF",
+      "instagram_url": "https://www.instagram.com/reel/DcVTLfginTF/",
+      "json": "data/transcripts/mms/DcVTLfginTF.json",
+      "text": "data/transcripts/mms/DcVTLfginTF.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DbpgiE9CPCV",
+      "instagram_url": "https://www.instagram.com/reel/DbpgiE9CPCV/",
+      "json": "data/transcripts/mms/DbpgiE9CPCV.json",
+      "text": "data/transcripts/mms/DbpgiE9CPCV.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "Dck9Ax0Nq6X",
+      "instagram_url": "https://www.instagram.com/reel/Dck9Ax0Nq6X/",
+      "json": "data/transcripts/mms/Dck9Ax0Nq6X.json",
+      "text": "data/transcripts/mms/Dck9Ax0Nq6X.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DbyC59NNCb3",
+      "instagram_url": "https://www.instagram.com/reel/DbyC59NNCb3/",
+      "json": "data/transcripts/mms/DbyC59NNCb3.json",
+      "text": "data/transcripts/mms/DbyC59NNCb3.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DcYoMy2NHVM",
+      "instagram_url": "https://www.instagram.com/reel/DcYoMy2NHVM/",
+      "json": "data/transcripts/mms/DcYoMy2NHVM.json",
+      "text": "data/transcripts/mms/DcYoMy2NHVM.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "DcOZJ4HCh9N",
+      "instagram_url": "https://www.instagram.com/reel/DcOZJ4HCh9N/",
+      "json": "data/transcripts/mms/DcOZJ4HCh9N.json",
+      "text": "data/transcripts/mms/DcOZJ4HCh9N.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DcA1cMYNj--",
+      "instagram_url": "https://www.instagram.com/reel/DcA1cMYNj--/",
+      "json": "data/transcripts/mms/DcA1cMYNj--.json",
+      "text": "data/transcripts/mms/DcA1cMYNj--.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "Db5bwsfNeh0",
+      "instagram_url": "https://www.instagram.com/reel/Db5bwsfNeh0/",
+      "json": "data/transcripts/mms/Db5bwsfNeh0.json",
+      "text": "data/transcripts/mms/Db5bwsfNeh0.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "DbuyncttRAz",
+      "instagram_url": "https://www.instagram.com/reel/DbuyncttRAz/",
+      "json": "data/transcripts/mms/DbuyncttRAz.json",
+      "text": "data/transcripts/mms/DbuyncttRAz.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "Dbs8VLGCMDF",
+      "instagram_url": "https://www.instagram.com/reel/Dbs8VLGCMDF/",
+      "json": "data/transcripts/mms/Dbs8VLGCMDF.json",
+      "text": "data/transcripts/mms/Dbs8VLGCMDF.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "Dbnkvi5tDWZ",
+      "instagram_url": "https://www.instagram.com/reel/Dbnkvi5tDWZ/",
+      "json": "data/transcripts/mms/Dbnkvi5tDWZ.json",
+      "text": "data/transcripts/mms/Dbnkvi5tDWZ.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "DbiCw55CKzt",
+      "instagram_url": "https://www.instagram.com/reel/DbiCw55CKzt/",
+      "json": "data/transcripts/mms/DbiCw55CKzt.json",
+      "text": "data/transcripts/mms/DbiCw55CKzt.txt",
+      "status": "draft_requires_human_review",
+      "segments": 2
+    },
+    {
+      "code": "DbfovPPN42r",
+      "instagram_url": "https://www.instagram.com/reel/DbfovPPN42r/",
+      "json": "data/transcripts/mms/DbfovPPN42r.json",
+      "text": "data/transcripts/mms/DbfovPPN42r.txt",
+      "status": "draft_requires_human_review",
+      "segments": 4
+    },
+    {
+      "code": "DbdlSkKicTD",
+      "instagram_url": "https://www.instagram.com/reel/DbdlSkKicTD/",
+      "json": "data/transcripts/mms/DbdlSkKicTD.json",
+      "text": "data/transcripts/mms/DbdlSkKicTD.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DbV0dQYt_MO",
+      "instagram_url": "https://www.instagram.com/reel/DbV0dQYt_MO/",
+      "json": "data/transcripts/mms/DbV0dQYt_MO.json",
+      "text": "data/transcripts/mms/DbV0dQYt_MO.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "DbVKbUJiByx",
+      "instagram_url": "https://www.instagram.com/reel/DbVKbUJiByx/",
+      "json": "data/transcripts/mms/DbVKbUJiByx.json",
+      "text": "data/transcripts/mms/DbVKbUJiByx.txt",
+      "status": "draft_requires_human_review",
+      "segments": 3
+    },
+    {
+      "code": "DaXqg2utLgu",
+      "instagram_url": "https://www.instagram.com/reel/DaXqg2utLgu/",
+      "json": "data/transcripts/mms/DaXqg2utLgu.json",
+      "text": "data/transcripts/mms/DaXqg2utLgu.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    },
+    {
+      "code": "DaXpR4Dt-jl",
+      "instagram_url": "https://www.instagram.com/reel/DaXpR4Dt-jl/",
+      "json": "data/transcripts/mms/DaXpR4Dt-jl.json",
+      "text": "data/transcripts/mms/DaXpR4Dt-jl.txt",
+      "status": "draft_requires_human_review",
+      "segments": 1
+    }
+  ]
+}
