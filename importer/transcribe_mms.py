@@ -9,7 +9,7 @@ import numpy as np
 import torch
 from transformers import AutoProcessor, Wav2Vec2ForCTC
 
-MODEL_ID = "facebook/mms-300m"
+MODEL_ID = "facebook/mms-1b-all"
 LANGUAGE = "kir"
 SAMPLE_RATE = 16000
 CHUNK_SECONDS = 20
